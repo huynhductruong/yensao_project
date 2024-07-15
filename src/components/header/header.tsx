@@ -35,6 +35,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            <hr className="w-[100%] mt-2 md:mt-4"/>
             <div className="w-5/6 flex justify-between mt-2 md:mt-3 items-center">
                 <Image src="/logo.png" className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]" width="70" height="70" alt="logo"></Image>
                 <div className="text-white flex font-medium md:text-sm items-center uppercase space-x-3 md:space-x-10">

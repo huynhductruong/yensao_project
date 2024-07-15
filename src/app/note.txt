@@ -7,3 +7,4 @@ rfc để tạo components
 SWR : React Hooks for data Fetching
 typescript: type, interface -> fileName.d.ts : không cần import
 reactToastify
+toLocaleString() : 2000 -> 2,000
