@@ -1,0 +1,9 @@
+UI library: MUI, Ant Design, Radix UI, Prime React, Shadcn UI
+clsx để thay đổi class dựa trên state theo cú pháp: className  = {clsx('string', {
+    key: value
+})}
+resopnsive tailwindcss : sm, md, lg, xl, 2xl
+rfc để tạo components
+SWR : React Hooks for data Fetching
+typescript: type, interface -> fileName.d.ts : không cần import
+reactToastify
