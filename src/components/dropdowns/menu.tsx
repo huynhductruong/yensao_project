@@ -13,7 +13,6 @@ import { AiFillProduct } from "react-icons/ai";
 export default function Menu() {
     return (
         <DropdownMenu>
-
             <DropdownMenuTrigger>
                 <IoMenu className="md:hidden text-2xl md:mb-1" />
             </DropdownMenuTrigger>

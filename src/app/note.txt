@@ -8,3 +8,6 @@ SWR : React Hooks for data Fetching
 typescript: type, interface -> fileName.d.ts : không cần import
 reactToastify
 toLocaleString() : 2000 -> 2,000
+slick : slide
+clone branch: git clone -v 'branch' 'url'
+

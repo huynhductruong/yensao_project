@@ -6,17 +6,19 @@ import {
     BreadcrumbPage,
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
+import Link from "next/link"
+
 export default function BreadCrumb() {
     return (
         <div className="w-full flex justify-center mt-2 md:mt-4">
             <Breadcrumb className="w-5/6 ">
                 <BreadcrumbList>
                     <BreadcrumbItem>
-                        <BreadcrumbLink href="/" className="text-xs md:text-sm">Home</BreadcrumbLink>
+                        <Link href="/" className="text-xs md:text-sm">Home</Link>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
-                        <BreadcrumbLink href="/components">Components</BreadcrumbLink>
+                        <Link href="/components">Components</Link>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
